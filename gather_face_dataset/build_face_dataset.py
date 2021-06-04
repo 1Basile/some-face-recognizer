@@ -6,7 +6,7 @@ import cv2
 import os
 
 """
-python3 build_face_dataset.py --cascade haarcascade_frontalface_default.xml --face_recognizing_model datasets/vasia
+python3 build_face_dataset.py --cascade haarcascade_frontalface_default.xml --face_recognizing_model datasets/username
 """
 
 # construct the argument parser and parse the arguments
