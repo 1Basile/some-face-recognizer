@@ -28,6 +28,7 @@ time.sleep(2.0)
 total = len(os.listdir(os.path.abspath(args["face_recognizing_model"])))
 
 # loop over the frames from the video stream
+print("[INFO] press 'k' to save face image...")
 while True:
     # grab the frame from the threaded video stream, clone it, (just
     # in case we want to write it to disk), and then resize the frame
